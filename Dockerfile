@@ -25,4 +25,6 @@ WORKDIR /data
 
 ENV kraken /usr/bin/kraken
 
+WORKDIR /sharedfolder/
+
 #ENTRYPOINT ["/usr/bin/kraken"]

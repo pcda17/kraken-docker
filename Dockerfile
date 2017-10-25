@@ -23,4 +23,6 @@ RUN apk add --no-cache \
 
 WORKDIR /data
 
-ENTRYPOINT ["/usr/bin/kraken"]
+ENV kraken /usr/bin/kraken
+
+#ENTRYPOINT ["/usr/bin/kraken"]
